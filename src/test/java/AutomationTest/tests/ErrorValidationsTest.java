@@ -19,7 +19,7 @@ public class ErrorValidationsTest extends BaseTest {
 
 		lpage.LoginApplication("DaviaMDiaz@rhyta.com", "David4321");
 		
-		Assert.assertEquals("Incorrt email or password.", lpage.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password.", lpage.getErrorMessage());
 	  
 	  
 		
